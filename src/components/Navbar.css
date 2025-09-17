@@ -21,3 +21,8 @@
 .navbar a:hover {
   color: #00bcd4;
 }
+.nav-link.active {
+  color: rgb(244, 244, 247);
+  font-weight: bold;
+  border-bottom: 2px solid blue; /* optional underline effect */
+}

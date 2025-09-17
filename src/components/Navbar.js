@@ -1,23 +1,31 @@
-import React from "react";
-import { Link } from "react-router-dom"; 
+import React, { startTransition } from "react";
+import { NavLink } from "react-router-dom"; 
 import "./Navbar.css";
 function Navbar(){
     return(
        <nav className="navbar">
     <h2 className="logo">ReactJs</h2>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+        <li className="nav-item">
+           <NavLink to="/" end className="nav-link">
+            Home
+          </NavLink>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+        <li className="nav-item">
+          <NavLink to="/about" className="nav-link">
+            About
+          </NavLink>
         </li>
-        <li class="nav-item">
-          <a class="nav-link"href="#">Services</a>
+        <li className="nav-item">
+          <NavLink to="/services" className="nav-link">
+            Services
+          </NavLink>
         </li>
-        <li class="nav-item">
-          <a class="nav-link"href="#">Contact</a>
+        <li className="nav-item">
+          <NavLink to="/contact" className="nav-link">
+            Contact
+          </NavLink>
         </li>
       </ul>
     </div>

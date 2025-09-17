@@ -26,3 +26,13 @@
   font-weight: bold;
   border-bottom: 2px solid blue; /* optional underline effect */
 }
+.nav-link {
+  text-decoration: none;
+  color: black;
+  padding: 5px 10px;
+}
+a.active {
+  background: yellow;
+  color: red !important;
+  font-weight: bold;
+}

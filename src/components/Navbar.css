@@ -31,8 +31,3 @@
   color: black;
   padding: 5px 10px;
 }
-a.active {
-  background: yellow;
-  color: red !important;
-  font-weight: bold;
-}

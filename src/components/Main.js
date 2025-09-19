@@ -8,8 +8,7 @@ function Main() {
         style={{ backgroundImage: `url(${bgImage})` }}
       >
     <h3 className="tagline">welcome to react website 🚀</h3>
-     <div className="overlay"></div>
-
+     
     <div className="main-content">
         <h1 className="tagline"> Home Page</h1>
         <p className="subtext">Welcome to our platform!
